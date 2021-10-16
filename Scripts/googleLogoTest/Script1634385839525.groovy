@@ -25,5 +25,7 @@ WebUI.click(findTestObject('Object Repository/Page_Google/div_Zgadzam si (1)'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Google/img_Zaloguj si_lnXdpd'), 0)
 
+WebUI.comment('"komentarz"')
+
 WebUI.closeBrowser()
 
